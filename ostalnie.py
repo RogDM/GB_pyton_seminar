@@ -8,7 +8,7 @@
 # num = int(input("Введите число: "))
 
 # for i in range(-num,num+1):
-#     print(i)
+#     print(i, end=' ')
 
 
 # 2. Напишите программу, которая будет принимать на 
@@ -33,9 +33,9 @@
 # 3. Напишите программу, которая принимает на вход число и п
 # роверяет, кратно ли оно 5 и 10 или 15, но не 30.
 
-# num = int(input("Введите число: "))
+num = int(input("Введите число: "))
 
-# if (num % 5 == 0 or num % 10 == 0 or num % 15 == 0) and  num % 30 != 0:
-#     print(True)
-# else:
-#     print(False)
+if num % 5 == 0 and num % 10 == 0 or num % 15 == 0 and num % 30 != 0:
+    print(True)
+else:
+    print(False)
