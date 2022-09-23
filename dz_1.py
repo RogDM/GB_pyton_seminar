@@ -85,20 +85,21 @@
 # Решение:
 # quarter = int(input("Введите номер четверти: "))
 
+# while quarter not in range(1,5):
+#     print("Не верный ввод")
+#     quarter = int(input("Введите корректный номер четверти (1-4): "))
+
 # if quarter == 1:
-#     print("x > 0 && y > 0")
+#     print("x > 0; y > 0")
 
 # elif  quarter == 2:
-#     print("x < 0 && y > 0")
+#     print("x < 0; y > 0")
 
 # elif quarter == 3:
-#     print("x < 0 && y < 0")
+#     print("x < 0; y < 0")
 
 # elif quarter == 4:
-#     print("x > 0 && y < 0")
-
-# else:
-#     print("Не верный ввод")
+#     print("x > 0; y < 0")
 
 
 
