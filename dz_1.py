@@ -117,5 +117,5 @@
 
 # rezult = round(((y1 - x1) ** 2 + (y2 - x2) ** 2) ** 0.5, 2)
 
-# print(f"A ({x1},{x2}); B ({y1},{y2}) -> {rezult}")
+# print(f"A ({x1},{y1}); B ({x2},{y2}) -> {rezult}")
 
