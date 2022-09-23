@@ -7,13 +7,13 @@
 
 # Решение:
 
-# day = int(input("Введите день недели: "))
-# if day in range(1,6):
-#     print("нет")
-# elif day in range(6,8):
-#     print("да")
-# else:
-#     print("не корректный ввод")
+day = int(input("Введите день недели: "))
+while day not in range(1,8):
+    day = int(input("Введите корректный день: "))
+if  0 < day < 6:
+    print("нет")
+elif 6 <= day <= 7:
+    print("да")
 
 
 # 2. Напишите программу для. проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
