@@ -7,13 +7,13 @@
 
 # Решение:
 
-day = int(input("Введите день недели: "))
-while day not in range(1,8):
-    day = int(input("Введите корректный день: "))
-if  0 < day < 6:
-    print("нет")
-elif 6 <= day <= 7:
-    print("да")
+# day = int(input("Введите день недели: "))
+# while day not in range(1,8):
+#     day = int(input("Введите корректный день: "))
+# if  0 < day < 6:
+#     print("нет")
+# elif 6 <= day <= 7:
+#     print("да")
 
 
 # 2. Напишите программу для. проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z для всех значений предикат.
@@ -21,7 +21,11 @@ elif 6 <= day <= 7:
 
 # Решение:
 
-# print(not("X" or "Y" or "Z") == (not "X" and not "Y" and not "Z"))
+# print("Для проверки утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z \nВведите Х ", end=" ")
+# х = int(input(""))
+# y = int(input("Введите y: "))
+# z = int(input("Введите z: "))
+# print(not(х or y or Z) == (not х and not y and not z))
 
 
 # 3. Напишите программу, которая принимает на вход координаты точки (X и Y), 
