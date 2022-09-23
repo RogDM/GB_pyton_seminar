@@ -37,23 +37,45 @@
 
 # Решение:
 
+
 # coordinate_x = int(input("Введите координату x: "))
 # coordinate_y = int(input("Введите координату y: "))
 
 # if coordinate_x == 0 or coordinate_y == 0:
 #     print("Не корректный ввод")
+#     if coordinate_x == 0:
+#         while coordinate_x == 0:
+#             coordinate_x = int(input("Введите корректную координату x (не 0): "))
+#     if coordinate_y == 0:
+#         while coordinate_y == 0:
+#             coordinate_y = int(input("Введите корректную координату y (не 0): "))
 
-# elif coordinate_x > 0 and coordinate_y > 0:
-#     print("x", "=", coordinate_x, "y", "=", coordinate_y, "-> 1")
+# if coordinate_x > 0 and coordinate_y > 0:
+#     print("x =", coordinate_x, "y =", coordinate_y, "-> 1")
 
 # elif coordinate_x < 0 and coordinate_y > 0:
-#     print("x", "=", coordinate_x, "y", "=", coordinate_y,  "-> 2")
+#     print("x =", coordinate_x, "y =", coordinate_y,  "-> 2")
 
 # elif coordinate_x < 0 and coordinate_y < 0:
-#     print("x", "=", coordinate_x, "y", "=", coordinate_y,  "-> 3")
+#     print("x =", coordinate_x, "y =", coordinate_y,  "-> 3")
 
 # elif coordinate_x > 0 and coordinate_y < 0:
-#     print("x", "=", coordinate_x, "y", "=", coordinate_y,  "-> 4")
+#     print("x =", coordinate_x, "y =", coordinate_y,  "-> 4")
+
+# переделанный elif (вставил elif вместо else во имя паранои - "вдург через цикл какая-то фигня пройдёт?")
+# ну и такое вариант мне кажется более громоздким.
+# elif coordinate_x > 0:
+#     if coordinate_y > 0:
+#         print("x =", coordinate_x, "y =", coordinate_y, "-> 1")
+#     elif coordinate_y < 0:
+#         print("x =", coordinate_x, "y =", coordinate_y,  "-> 4")
+
+# elif coordinate_x < 0:
+#     if coordinate_y > 0:
+#         print("x =", coordinate_x, "y =", coordinate_y,  "-> 2")
+#     elif coordinate_y < 0:
+#         print("x =", coordinate_x, "y =", coordinate_y,  "-> 3")
+
 
 
 
